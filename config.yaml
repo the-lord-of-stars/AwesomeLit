@@ -1,0 +1,3 @@
+model_name: gpt-4
+search_limit: 10
+search_url: https://api.semanticscholar.org/graph/v1/paper/search
