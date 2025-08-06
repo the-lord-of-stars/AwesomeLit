@@ -1,8 +1,15 @@
+"""
+Author: Henry X
+Date: 2025/8/4 20:48
+File: fetch_references.py
+Description: This file contains the function to fetch references using the Semantic Scholar API.
+"""
+
 import time
 import requests
 from typing import List, Dict
-from tool.load_envs import S2_API_KEY
-from tool.load_config import SEARCH_LIMIT, SEARCH_URL
+from utils.load_envs import S2_API_KEY
+from utils.load_config import SEARCH_LIMIT, SEARCH_URL
 
 
 def fetch_references(query: str) -> List[Dict]:
@@ -19,7 +26,7 @@ def fetch_references(query: str) -> List[Dict]:
         params={
             "query": query,
             "limit": SEARCH_LIMIT,
-            "fields": "title,authors,venue,year,abstract,citationStyles,citationCount",
+            "fields": "title,authors,venue,year,abstract,citationStyles,citationCount,url",
         },
     )
     print(f"Response Status Code: {rsp.status_code}")
@@ -41,4 +48,4 @@ def fetch_references(query: str) -> List[Dict]:
 if __name__ == "__main__":
     papers = fetch_references(query="deep learning")
     for paper in papers:
-        print(paper["title"])
+        print(f"Title: {paper['title']}, URL: {paper['url']}")

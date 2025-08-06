@@ -1,3 +1,10 @@
+"""
+Author: Henry X
+Date: 2025/8/4 20:48
+File: load_envs.py
+Description: This file is used to load environment variables from.env file.
+"""
+
 import os
 from dotenv import load_dotenv
 
