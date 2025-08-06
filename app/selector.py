@@ -41,7 +41,8 @@ def build_selector_ui(topic_state: gr.State,
 
             topic_dd = gr.Dropdown(
                 label="Topic",
-                choices=choices
+                choices=choices,
+                value="⨁ New…",
             )
 
             new_topic = gr.Textbox(visible=(topic_value == "⨁ New…"))
@@ -109,7 +110,7 @@ def build_selector_ui(topic_state: gr.State,
         return on_topic(name)
 
     def on_search(q):
-        papers_state.value, selected_ids.value = search_papers(q), []
+        papers_state.value, selected_ids.value = search_papers(q), selected_ids.value
         save_selected(topic_state.value, [])
         return refresh()
 
