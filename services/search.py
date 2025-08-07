@@ -28,7 +28,7 @@ def search_papers(query: str, limit: int = 50) -> List[Dict]:
     papers = fetch_references(query=query)
     for p in papers:
         p.setdefault("year", "N/A")
-        p["category"] = _year_bucket(p["year"])
+        p["categoryYear"] = _year_bucket(p["year"])
         p.setdefault("citationCount", 0)
         p.setdefault("abstract", "")
     return papers

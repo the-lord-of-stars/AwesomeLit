@@ -12,10 +12,10 @@ from typing import List, Dict
 import matplotlib.pyplot as plt
 
 
-def category_pie(selected):
+def categoryYear_pie (selected):
     if not selected:
         return None
-    cats = [p.get("category", "Unknown") for p in selected]
+    cats = [p.get("categoryYear", "Unknown") for p in selected]
     sizes = Counter(cats)
 
     fig, ax = plt.subplots(figsize=(4, 4))
@@ -32,7 +32,7 @@ def category_pie(selected):
 def advice(selected: List[Dict]) -> str:
     if not selected:
         return "⚠️ No papers selected."
-    cats = [p.get("category", "Unknown") for p in selected]
+    cats = [p.get("categoryYear", "Unknown") for p in selected]
     major, cnt = Counter(cats).most_common(1)[0]
     share = cnt / len(cats)
     if share > 0.7:

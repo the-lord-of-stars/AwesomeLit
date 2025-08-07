@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "paperId": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+    "url": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+    "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+    "venue": "Neural Information Processing Systems",
+    "year": 2019,
+    "citationCount": 43539,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1912.01703, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "citationStyles": {
+      "bibtex": "@Article{Paszke2019PyTorchAI,\n author = {Adam Paszke and Sam Gross and Francisco Massa and Adam Lerer and James Bradbury and Gregory Chanan and Trevor Killeen and Zeming Lin and N. Gimelshein and L. Antiga and Alban Desmaison and Andreas Köpf and E. Yang and Zachary DeVito and Martin Raison and Alykhan Tejani and Sasank Chilamkurthy and Benoit Steiner and Lu Fang and Junjie Bai and Soumith Chintala},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},\n volume = {abs/1912.01703},\n year = {2019}\n}\n"
+    },
+    "authors": [
+      {
+        "authorId": "3407277",
+        "name": "Adam Paszke"
+      },
+      {
+        "authorId": "39793298",
+        "name": "Sam Gross"
+      },
+      {
+        "authorId": "1403239967",
+        "name": "Francisco Massa"
+      },
+      {
+        "authorId": "1977806",
+        "name": "Adam Lerer"
+      },
+      {
+        "authorId": "2065251344",
+        "name": "James Bradbury"
+      },
+      {
+        "authorId": "114250963",
+        "name": "Gregory Chanan"
+      },
+      {
+        "authorId": "2059271276",
+        "name": "Trevor Killeen"
+      },
+      {
+        "authorId": "3370429",
+        "name": "Zeming Lin"
+      },
+      {
+        "authorId": "3365851",
+        "name": "N. Gimelshein"
+      },
+      {
+        "authorId": "3029482",
+        "name": "L. Antiga"
+      },
+      {
+        "authorId": "3050846",
+        "name": "Alban Desmaison"
+      },
+      {
+        "authorId": "1473151134",
+        "name": "Andreas Köpf"
+      },
+      {
+        "authorId": "2052812305",
+        "name": "E. Yang"
+      },
+      {
+        "authorId": "2253681376",
+        "name": "Zachary DeVito"
+      },
+      {
+        "authorId": "10707709",
+        "name": "Martin Raison"
+      },
+      {
+        "authorId": "41203992",
+        "name": "Alykhan Tejani"
+      },
+      {
+        "authorId": "22236100",
+        "name": "Sasank Chilamkurthy"
+      },
+      {
+        "authorId": "32163737",
+        "name": "Benoit Steiner"
+      },
+      {
+        "authorId": "152599430",
+        "name": "Lu Fang"
+      },
+      {
+        "authorId": "2113829116",
+        "name": "Junjie Bai"
+      },
+      {
+        "authorId": "2127604",
+        "name": "Soumith Chintala"
+      }
+    ],
+    "abstract": "Deep learning frameworks have often focused on either usability or speed, but not both. PyTorch is a machine learning library that shows that these two goals are in fact compatible: it was designed from first principles to support an imperative and Pythonic programming style that supports code as a model, makes debugging easy and is consistent with other popular scientific computing libraries, while remaining efficient and supporting hardware accelerators such as GPUs. In this paper, we detail the principles that drove the implementation of PyTorch and how they are reflected in its architecture. We emphasize that every aspect of PyTorch is a regular Python program under the full control of its user. We also explain how the careful and pragmatic implementation of the key components of its runtime enables them to work together to achieve compelling performance. We demonstrate the efficiency of individual subsystems, as well as the overall speed of PyTorch on several commonly used benchmarks.",
+    "categoryYear": "2015–2019"
+  },
+  {
+    "paperId": "f28e387d4229c5f690ce4570a391c0f47e7155c7",
+    "url": "https://www.semanticscholar.org/paper/f28e387d4229c5f690ce4570a391c0f47e7155c7",
+    "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+    "venue": "Nature Methods",
+    "year": 2020,
+    "citationCount": 5853,
+    "openAccessPdf": {
+      "url": "https://arxiv.org/pdf/1904.08128",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41592-020-01008-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41592-020-01008-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "citationStyles": {
+      "bibtex": "@Article{Isensee2020nnUNetAS,\n author = {Fabian Isensee and P. Jaeger and Simon A. A. Kohl and Jens Petersen and Klaus Hermann Maier-Hein},\n booktitle = {Nature Methods},\n journal = {Nature Methods},\n pages = {203 - 211},\n title = {nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation},\n volume = {18},\n year = {2020}\n}\n"
+    },
+    "authors": [
+      {
+        "authorId": "7886986",
+        "name": "Fabian Isensee"
+      },
+      {
+        "authorId": "51433108",
+        "name": "P. Jaeger"
+      },
+      {
+        "authorId": "51011129",
+        "name": "Simon A. A. Kohl"
+      },
+      {
+        "authorId": "152800798",
+        "name": "Jens Petersen"
+      },
+      {
+        "authorId": "1397951928",
+        "name": "Klaus Hermann Maier-Hein"
+      }
+    ],
+    "abstract": null,
+    "categoryYear": "2020–2024"
+  },
+  {
+    "paperId": "21f389aabe2491d620ce920e3bad2b12521fa025",
+    "url": "https://www.semanticscholar.org/paper/21f389aabe2491d620ce920e3bad2b12521fa025",
+    "title": "Algorithms on Strings, Trees, and Sequences - Computer Science and Computational Biology",
+    "venue": "",
+    "year": 1997,
+    "citationCount": 4544,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1017/cbo9780511574931?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1017/cbo9780511574931, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "citationStyles": {
+      "bibtex": "@Inproceedings{Gusfield1997AlgorithmsOS,\n author = {D. Gusfield},\n title = {Algorithms on Strings, Trees, and Sequences - Computer Science and Computational Biology},\n year = {1997}\n}\n"
+    },
+    "authors": [
+      {
+        "authorId": "1706261",
+        "name": "D. Gusfield"
+      }
+    ],
+    "abstract": "Linear-Time Construction of Suffix Trees We will present two methods for constructing suffix trees in detail, Ukkonen’s method and Weiner’s method. Weiner was the first to show that suffix trees can be built in linear time, and his method is presented both for its historical importance and for some different technical ideas that it contains. However, lJkkonen’s method is equally fast and uses far less space (i.e., memory) in practice than Weiner’s method Hence Ukkonen is the method of choice for most problems requiring the construction of a suffix tree. We also believe that Ukkonen’s method is easier to understand. Therefore, it will be presented first A reader who wishes to study only one method is advised to concentrate on it. However, our development of Weiner’s method does not depend on understanding Ukkonen’s algorithm, and the two algorithms can be read independently (with one small shared section noted in the description of Weiner’s method).",
+    "categoryYear": "≤ 2014"
+  }
+]
