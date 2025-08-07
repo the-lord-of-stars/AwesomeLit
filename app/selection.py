@@ -2,12 +2,12 @@
 Author: Henry X
 Date: 2025/8/5 20:57
 File: selector.py
-Description: [Add your description here]
+Description: The selection process of the pipeline
 """
 
-from services.search import search_papers
-from services.selection import list_topics, load_selected, save_selected
-from utils.plot import categoryYear_pie
+from services.tag import search_papers
+from services.references_io import list_topics, load_selected, save_selected
+from utils.plot import year_pie
 from utils.plot import advice
 import gradio as gr
 from typing import List
@@ -93,7 +93,7 @@ def build_selector_ui(topic_state, papers_state, selected_urls, paper_lookup):
             left = _table([p["url"] for p in papers_state.value if p["url"] not in selected_urls.value])
             right = _table(selected_urls.value)
             stat = f"**Selected:** {len(selected_urls.value)}"
-            chart = categoryYear_pie([paper_lookup.value[u] for u in selected_urls.value if u in paper_lookup.value])
+            chart = year_pie([paper_lookup.value[u] for u in selected_urls.value if u in paper_lookup.value])
             hint = advice([paper_lookup.value[u] for u in selected_urls.value if u in paper_lookup.value])
 
             return (

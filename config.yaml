@@ -1,4 +1,4 @@
 # Base Configuration
 model_name: deepseek-chat
-search_limit: 10
+search_limit: 100
 search_url: https://api.semanticscholar.org/graph/v1/paper/search

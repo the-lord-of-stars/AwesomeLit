@@ -2,7 +2,7 @@
 Author: Henry X
 Date: 2025/8/5 20:43
 File: plot.py
-Description: [Add your description here]
+Description: The plotting function
 """
 
 from collections import Counter
@@ -12,7 +12,7 @@ from typing import List, Dict
 import matplotlib.pyplot as plt
 
 
-def categoryYear_pie (selected):
+def year_pie (selected):
     if not selected:
         return None
     cats = [p.get("categoryYear", "Unknown") for p in selected]

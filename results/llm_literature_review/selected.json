@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "paperId": "fd30d3189b3bc3295ddad05ac1f683ce41f5e9cb",
+    "url": "https://www.semanticscholar.org/paper/fd30d3189b3bc3295ddad05ac1f683ce41f5e9cb",
+    "title": "LitLLM: A Toolkit for Scientific Literature Review",
+    "venue": "arXiv.org",
+    "year": 2024,
+    "citationCount": 37,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2402.01788, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "citationStyles": {
+      "bibtex": "@Article{Agarwal2024LitLLMAT,\n author = {Shubham Agarwal and I. Laradji and Laurent Charlin and Christopher Pal},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {LitLLM: A Toolkit for Scientific Literature Review},\n volume = {abs/2402.01788},\n year = {2024}\n}\n"
+    },
+    "authors": [
+      {
+        "authorId": "144992211",
+        "name": "Shubham Agarwal"
+      },
+      {
+        "authorId": "3266173",
+        "name": "I. Laradji"
+      },
+      {
+        "authorId": "1778839",
+        "name": "Laurent Charlin"
+      },
+      {
+        "authorId": "2275240361",
+        "name": "Christopher Pal"
+      }
+    ],
+    "abstract": "Conducting literature reviews for scientific papers is essential for understanding research, its limitations, and building on existing work. It is a tedious task which makes an automatic literature review generator appealing. Unfortunately, many existing works that generate such reviews using Large Language Models (LLMs) have significant limitations. They tend to hallucinate-generate non-factual information-and ignore the latest research they have not been trained on. To address these limitations, we propose a toolkit that operates on Retrieval Augmented Generation (RAG) principles, specialized prompting and instructing techniques with the help of LLMs. Our system first initiates a web search to retrieve relevant papers by summarizing user-provided abstracts into keywords using an off-the-shelf LLM. Authors can enhance the search by supplementing it with relevant papers or keywords, contributing to a tailored retrieval process. Second, the system re-ranks the retrieved papers based on the user-provided abstract. Finally, the related work section is generated based on the re-ranked results and the abstract. There is a substantial reduction in time and effort for literature review compared to traditional methods, establishing our toolkit as an efficient alternative. Our project page including the demo and toolkit can be accessed here: https://litllm.github.io",
+    "categoryYear": "2020–2024"
+  }
+]
